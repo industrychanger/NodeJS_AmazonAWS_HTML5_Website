@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Hacker Trips - Journey</title>
+	<meta name="description" content="An open-source jQuery plugin to easily and semantically add captions to images."/>
+	<link rel="icon" type="image/png" href="site/favicon.png"/>
+	<link rel="stylesheet" href="css/main.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.caption.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+		<script type="text/javascript" src="js/vendor/modernizr.custom.28468.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<!--///////////////////////////// Required CSS /////////////////////////////-->
+	<link rel="stylesheet" href="css/captionjs.css"/>
+
+	<!--///////////////////////////// Sample CSS /////////////////////////////-->
+	<style>
+		.captionjs figcaption {
+			font-size: 13px;
+			line-height: 1.5;
+			padding: 10px 15px;
+			border: 1px solid #ddd;
+			border-top: none;
+			background-color: #eee;
+		}
+		.captionjs.stacked figcaption {
+			background-color: rgba(0, 0, 0, 0.75);
+			color: #fff;
+			border: none;
+		}
+
+	</style>
+
+	<!--///////////////////////////// Sample JS /////////////////////////////-->
+	<script type="text/javascript">
+		$(window).load(function(){
+			$('img#example-2').captionjs({
+				'mode' : 'stacked'
+			});
+
+		});
+	</script>
+</head>
+<body>
+	 <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Hacker Trips</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#about">The Journey</a></li>
+            <li><a href="#about">Place Travelled</a></li>
+            <li><a href="#about">Skills Acquired</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div><!-- End header -->
+	<div class="jumbotron">
+	<div class="container">
+		<div class="main">
+				<ul id="og-grid" class="og-grid">
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/slide_outs/less_meeting.jpg" data-title="One Little Startup" data-description="Back in August 2013, a group of high-energy visionaries got together at the local Tallahassee makerspace all in an effort to come up with something new. We dicussed what the future had in store and where we wanted to go. We restructured our team while provoking the emotions that were driving us forward.">
+							<img src="images/thumbs/original_team.png" id="example-2" class="caption" data-caption="Beginning with LESS"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/slide_outs/lost_matt.jpg" data-title="" data-description="With the inspiration that was sparked at the last meeting, a plan was put in motion to take the 'weakest' individual on the team and try to push him to another level. What happened next would cause the co-founder to experience the startup culture like never before.">
+							<img src="images/thumbs/party_matt.jpg" id="example-2" class="caption" data-caption="Finding a Mission"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/slide_outs/breaking_bad.jpg" data-title="The 1st Trip" data-description="With $2000, new tires, a bike, suitcases full of clothes, and a variety of adrenaline pushing snacks, I got in my car and drove far far away. The only real guidelines were to maintain a steady speed and stay out of Texas to avoid getting pulled over. The currents and patterns associated with travelling across the country quickly became evident as thousands of miles of road, sketchy motels, and gas stations were seen in such a short period of time.">
+							<img src="images/thumbs/tripping.jpg" id="example-2" class="caption" data-caption="Tripping Across America"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/slide_outs/velvet_jones.jpg" data-title="A New State" data-description="After arriving in Los Angeles, I found my dad and brother at the house that they were staying at. Lots of amazing food was eaten, and beer was consumed by the pitcher. I began to hover around various hackerspaces in the area. I met Chance the Rapper in Santa Barbara at his 1st sold out show. I travelled up to San Francisco, met dozens of startup-oriented people, and spent all my money. It was a great time.">
+							<img src="images/thumbs/cali_exploration.jpg" id="example-2" class="caption" data-caption="Exploring California"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/slide_outs/elastic_highways.jpg" data-title="Monkey Fists" data-description="These simply look great. Excellent capillary effect for fuel travelling within the rope and to all edges. Comes with strong stainless steel eyebolt that easily attaches to our range of cords.">
+							<img src="images/thumbs/elastic_highways.jpg" id="example-2" class="caption" data-caption="Riding the Elastic Highways"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/slide_outs/the_wild_bunch.jpg" data-title="Cathedral Wraps" data-description="Sold as a pair (as shown in picture). Securely folded and stitched with Kevlar thread for maximum safety and long life. With care this fire head can last well over 12 months of use">
+							<img src="images/thumbs/new_friends.jpg" id="example-2" class="caption" data-caption="Discovering New Friends in D.C."/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							<img src="images/thumbs/running_away.jpg" id="example-2" class="caption" data-caption="Dropping Everything"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							<img src="images/thumbs/fire_poi.jpg" id="example-2" class="caption" data-caption="Spinning Fire"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/less_meeting.jpg" data-title="Monkey Fists" data-description="These simply look great. Excellent capillary effect for fuel travelling within the rope and to all edges. Comes with strong stainless steel eyebolt that easily attaches to our range of cords.">
+							<img src="images/thumbs/energy_wizards.jpg" id="example-2" class="caption" data-caption="Transforming into Wizards"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/less_meeting.jpg" data-title="Monkey Fists" data-description="These simply look great. Excellent capillary effect for fuel travelling within the rope and to all edges. Comes with strong stainless steel eyebolt that easily attaches to our range of cords.">
+							<img src="images/thumbs/tallahassee.jpg" id="example-2" class="caption" data-caption="Returning to Tallahassee"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/1.jpg" data-title="Cathedral Wraps" data-description="Sold as a pair (as shown in picture). Securely folded and stitched with Kevlar thread for maximum safety and long life. With care this fire head can last well over 12 months of use">
+							<img src="images/thumbs/hackerspace_tour.jpg" id="example-2" class="caption" data-caption="Touring Hackerspaces"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							<img src="images/thumbs/less_app.png" id="example-2" class="caption" data-caption="Developing the LESS Android App"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://t.co/oQQ6hdFEdQ" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+							<img src="images/thumbs/fire_poi.jpg" id="example-2" class="caption" data-caption="Defining a New Life"/>
+						</a>
+					</li>
+				</ul>
+				</div>
+			</div><!-- End container -->
+	</div>
+	<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+	
+</body>
+</html>

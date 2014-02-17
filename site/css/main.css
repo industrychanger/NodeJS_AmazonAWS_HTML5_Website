@@ -3,20 +3,46 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@media only screen and (min-width: 480px) {
+	
+}
+   
+@media only screen and (min-width: 768px) {
 
+}
+   
+@media only screen and (min-width: 1140px) {
 
+}
 
+#homepagetitle{
+font-size: 44px;
+line-height: normal;
+font-weight: bold;
+text-shadow: 1px 1px 3px black;
+font-family: arial;
+color: #fff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.da-slider{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: background-position 1s ease-out 0.3s;
+	-moz-transition: background-position 1s ease-out 0.3s;
+	-o-transition: background-position 1s ease-out 0.3s;
+	-ms-transition: background-position 1s ease-out 0.3s;
+	transition: background-position 1s ease-out 0.3s;
+}
+.da-slide h2{
+	color: #fff;
+	font-size: 50px;
+	width: 50%;
+	top: 60px;
+	white-space: nowrap;
+	z-index: 10;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	font-family: 'Economica', Arial, sans-serif;
+	font-weight: 700;
+}
