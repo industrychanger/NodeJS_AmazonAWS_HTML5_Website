@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-	<title>caption.js | Easily and semantically add captions to images</title>
-	<meta name="description" content="An open-source jQuery plugin to easily and semantically add captions to images."/>
-	<link rel="icon" type="image/png" href="site/favicon.png"/>
-	<link rel="stylesheet" href="css/main.css"/>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-	<script src="js/jquery.caption.js" type="text/javascript"></script>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
             body {
                 padding-top: 50px;
@@ -23,52 +24,17 @@
 		
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
-
+		
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-	<!--///////////////////////////// Required CSS /////////////////////////////-->
-	<link rel="stylesheet" href="css/captionjs.css"/>
-
-	<!--///////////////////////////// Sample CSS /////////////////////////////-->
-	<style>
-		.captionjs figcaption {
-			font-size: 13px;
-			line-height: 1.5;
-			padding: 10px 15px;
-			border: 1px solid #ddd;
-			border-top: none;
-			background-color: #eee;
-		}
-		.captionjs.stacked figcaption {
-			background-color: rgba(0, 0, 0, 0.75);
-			color: #fff;
-			border: none;
-		}
-
-	</style>
-
-	<!--///////////////////////////// Sample JS /////////////////////////////-->
-	<script type="text/javascript">
-		$(window).load(function(){
-			$('img#example-2').captionjs({
-				'mode' : 'stacked'
-			});
-
-		});
-	</script>
-</head>
-<body>
-	 <div class="navbar navbar-fixed-top" style="padding-left: 8%;">
-			<div class="row">
-				<div style="float: left; padding-top: 1.5%;">
-				<img src="images/wizardhat.png" width="45px">
-				</div>
-				<div style="float: left; padding-left: 0.5%">
-				<h1>Fire Wizards</h1>
-				</div>
-			</div>
-		</div>
-    <div class="navbar navbar-inverse navbar-fixed-top" style="margin-top:70px;">
+		
+		
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+		
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -76,48 +42,59 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand" href="#">Hacker Trips</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
-            <li><a href="store.html">Store</a></li>
-            <li><a href="#about">Community</a></li>
-            <li class="active"><a href="#contact">Contact</a></li>
+            <li><a href="journey.html">The Journey</a></li>
+            <li class="active"><a href="#about">Places Travelled</a></li>
+            <li><a href="skills.html">Skills Acquired</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
+    </div><!-- End header -->
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+	<a href="https://twitter.com/industrychanger" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @industrychanger</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+	<a href="https://twitter.com/intent/tweet?screen_name=industrychanger" class="twitter-mention-button">Tweet to @industrychanger</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <div>
+	  
+       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+      </div>
     </div>
-	<div class="jumbotron" style="padding:0px; padding-top: 75px;">
-		<div class="container" style="padding-left: 145px; padding-top: 30px; height: 370px; padding-right: 125px;">
-					<div class="row">
-						<div style="float: left; width: 60%;">
-						<h2><div  id="homepagetitle">Send us a Message</div></h2>
-						<div class="input-group">
-						  <input type="text" class="form-control" placeholder="Your Email">
-						  <textarea placeholder="What's on your mind?"></textarea>
-						</div>
-						</div>
-						<div style="float: left;">
-							<img src="images/mail.png" width="300px">
-						</div>
-					</div>
-		</div>
-	</div>
-	<div class="container">
-		<div>
-			<h2>Follow Us on Twitter</h2>
-		</div>
-		<div class="main">
-				
-				</div>
-			</div>
-	<script src="js/grid.js"></script>
-		<script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/vendor/jquery.cslider.js"></script>
+		<script type="text/javascript">
 			$(function() {
-				Grid.init();
+			
+				$('#da-slider').cslider({
+					autoplay	: true,
+					bgincrement	: 50
+				});
+			
 			});
 		</script>
+
+     
+        <script>window.jQuery || document.write('<script src="js/vendor/jQuery_2.0.3.js"><\/script>')</script>
+
         <script src="js/vendor/bootstrap.min.js"></script>
-	
-</body>
+
+        
+    </body>
 </html>
